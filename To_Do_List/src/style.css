@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+body {
+  padding: 10px;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  border: 5px gray solid;
+}
+
+h1 {
+  margin: 5px auto 10px auto;
+  font-weight: 800;
+  font-size: 1.5rem;
+  background-color: rgb(124, 124, 204);
+  min-width: 200px;
+  max-width: 200px;
+  color: white;
+}
+
+.App {
+  min-height: 300px;
+  text-align: center;
+}
+
+.addnewtask {
+  border-radius: 5%;
+  background-color: rgb(124, 124, 204);
+  color: white;
+  border-style: none;
+  width: 100px;
+  height: 25px;
+}
+
+.addnewtask:hover {
+  transition: 0.3s;
+  background-color: rgb(105, 105, 172);
+}
+
+.first_frame {
+  margin-bottom: 10px;
+  background-color: rgb(224, 224, 216);
+}
+
+.second_frame {
+  background-color: rgb(224, 224, 216);
+  min-height: 300px;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: white;
+  max-width: 300px;
+  min-width: 10px;
+  border: 1px gray solid;
+}
+
+input[type='checkbox'] {
+  background-color: #eee;
+  width: 30px;
+  height: 30px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.x {
+  background-color: red;
+  border-radius: 7%;
+  width: 100px;
+  height: 30px;
+}
+
+.change {
+  background-color: burlywood;
+  border-radius: 7%;
+  width: 100px;
+  height: 30px;
+}
+
+.x:hover {
+  transition: 0.3s;
+  background-color: rgb(132, 6, 6);
+}
+
+.change:hover {
+  transition: 0.3s;
+  background-color: rgb(85, 70, 70);
+}
